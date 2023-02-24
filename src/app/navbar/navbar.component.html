@@ -1,13 +1,23 @@
+<app-header></app-header>
 <nav class="nav">
-<h1>Jeeva</h1>
-<div class="nav-search">
-<input type="text" placeholder="Search Products"/>
-<button>Search</button>
-    </div>
- <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Seller</a></li>
-    <li><a href="#">Login</a></li>
-    <li><a href="#">Cart(0)</a></li>
- </ul>   
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets\Giva logo.avif" alt="" width="100" height="70" class="d-inline-block align-text-top">
+        </a>
+      </div>
     </nav>
+<div class="nav-search">
+   <ul>
+   <li><a routerLink="/">Shop All</a></li>
+    <li><a href="#" >Valentine Store</a></li>
+    <li><a href="#">Best of GIVA</a></li>
+    <li><a href="#">Pendants & EAarrings</a></li>
+    <li><a href="#">Cart</a></li>
+    <li><a routerLink="/seller-auth">Login</a></li>
+   </ul>
+    <input type="text" placeholder="Search Products"/>
+    <button>Search</button> 
+   </div>
+    </nav>
+

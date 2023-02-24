@@ -1,72 +1,81 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav h1 {
-    color: blueviolet;
-    margin: 0;
-    font-size: 40px;
-  }
-  .nav .nav-search {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  color: pink;
+  margin: 0;
+  font-size: 40px;
+}
+.nav .nav-search {
+  flex: 1;
+  display: flex;
+  margin-left: 5%;
+  /* margin-right: 5%; */
+  margin-top: 5px;
+}
+
+.nav .nav-search input {
     flex: 1;
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5px;
-  }
-  
-  .nav .nav-search input {
-      flex: 1;
-      color: blueviolet;
-      border: 1px solid blueviolet;
-      height: 35px;
-      border-right: none;
-  }
-  
-  .nav .nav-search button{
-      color: blueviolet;
-      border: 1px solid blueviolet;
-      height: 39px;
-  }
-  
-  .nav ul {
-      display: inline-flex;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-  }
-  
-  .nav ul li{
-      padding-left: 10px;
-      padding-top: 15px;
-  }
-  
-  .nav ul a {
-      text-decoration: none;
-      color: blueviolet;
-      cursor: pointer;
-  }
-  
-  h1 a{
-    color: blueviolet;
-    text-decoration: none;
-  }
-  
-  .suggested-search{
-    position: absolute;
-    top: 40px;
-    z-index: 10;
-    display: list-item !important;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    width: 300px;
-  }
-  .suggested-search li {
-    padding:5px;
-    border: 1px solid #ddd;
-  }
-  .suggested-search li a{
-    cursor: pointer;
-    color: blueviolet;
+    color: pink;
+    border: 1px solid pink;
+    height: 35px;
+    border-right: none;
+    /* padding-left: 10px; */
+}
+
+.nav .nav-search button{
+    color: black;
+    border: 1px solid pink;
+    height: 39px;
+}
+
+.nav ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* padding-right: 80px; */
+}
+
+.nav ul li{
+  /* padding-left: 45px; */
+  padding-top: 20px;
+  margin: 0;
+  width: 145px;
+  text-align: center;
+}
+.nav ul a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+h1 a{
+  color: pink;
+  text-decoration: none;
+}
+
+.suggested-search{
+  position: absolute;
+  top: 40px;
+  z-index: 10;
+  display: list-item !important;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 300px;
+}
+.suggested-search li {
+  padding:10px;
+  border: 1px solid #ddd;
+}
+.suggested-search li a{
+  cursor: pointer;
+  color: pink;
+}
+.img{
+  height: 20px;
   }

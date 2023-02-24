@@ -1,0 +1,14 @@
+.header h5 {
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: pink;
+    height: 50px;
+}
